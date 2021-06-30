@@ -1,0 +1,54 @@
+/* line 2, ../GitHub/EnquiryPrototype/SCSS/global-styles.scss */
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* line 8, ../GitHub/EnquiryPrototype/SCSS/global-styles.scss */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 13, ../GitHub/EnquiryPrototype/SCSS/global-styles.scss */
+a, p {
+  font-size: 1.6rem;
+}
+
+/* line 17, ../GitHub/EnquiryPrototype/SCSS/global-styles.scss */
+h1 {
+  font-size: 3.2rem;
+}
+
+/* line 20, ../GitHub/EnquiryPrototype/SCSS/global-styles.scss */
+h2 {
+  font-size: 2.4rem;
+}
+
+/* line 23, ../GitHub/EnquiryPrototype/SCSS/global-styles.scss */
+h3 {
+  font-size: 1.872rem;
+}
+
+/* line 26, ../GitHub/EnquiryPrototype/SCSS/global-styles.scss */
+h4 {
+  font-size: 1.6rem;
+}
+
+/* line 29, ../GitHub/EnquiryPrototype/SCSS/global-styles.scss */
+h5 {
+  font-size: 1.328rem;
+}
+
+/* line 32, ../GitHub/EnquiryPrototype/SCSS/global-styles.scss */
+h6 {
+  font-size: 1.072rem;
+}
+
+/* line 36, ../GitHub/EnquiryPrototype/SCSS/global-styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=global-styles.css.map */

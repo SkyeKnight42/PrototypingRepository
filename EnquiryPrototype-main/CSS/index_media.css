@@ -1,0 +1,113 @@
+@media (min-width: 768px) {
+  /* line 4, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .prototype_selector_button_container {
+    width: 750px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  /* line 9, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .prototype_selector_button_container a {
+    margin-bottom: 0;
+    margin: 0 10px;
+  }
+  /* line 15, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_title_description {
+    margin: 0 auto;
+    width: 750px;
+  }
+  /* line 20, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video {
+    margin: 0 auto;
+    width: 750px;
+  }
+  /* line 24, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video .video_template {
+    width: 730px;
+    height: 410px;
+    margin: 0;
+  }
+  /* line 31, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form_container {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 993px) {
+  /* line 38, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .prototype_selector_button_container {
+    width: 975px;
+  }
+  /* line 42, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_title_description {
+    width: 975px;
+  }
+  /* line 45, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_title_description p {
+    display: inline-block;
+  }
+  /* line 50, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video {
+    margin: 0 auto;
+    width: 975px;
+    flex-direction: row;
+  }
+  /* line 55, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video .text_container {
+    width: 482.5px;
+  }
+  /* line 59, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video .video_template {
+    width: calc(955px * $scale);
+    height: calc(537px * $scale);
+  }
+  /* line 66, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form_container {
+    width: 975px;
+  }
+  /* line 71, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form form {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 74, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form form .column_1, .enquiry_form form .column_2 {
+    width: 50%;
+  }
+  /* line 77, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form form .column_1 {
+    margin-right: 10px;
+  }
+  /* line 80, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form form .column_2 {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1218px) {
+  /* line 88, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .prototype_selector_button_container {
+    width: 1200px;
+  }
+  /* line 92, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_title_description {
+    width: 1200px;
+  }
+  /* line 96, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video {
+    margin: 0 auto;
+    width: 1200px;
+  }
+  /* line 100, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video .video_template {
+    width: calc(1180px * $scale);
+    height: calc(663px * $scale);
+  }
+  /* line 107, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form_container {
+    width: 1200px;
+  }
+}
+
+/*# sourceMappingURL=index_media.css.map */

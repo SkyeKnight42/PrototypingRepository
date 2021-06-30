@@ -1,0 +1,448 @@
+/* line 7, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.prototype_selector {
+  background-color: #144683;
+}
+
+/* line 11, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.prototype_selector_button_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  flex-direction: column;
+}
+
+/* line 17, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.prototype_selector_button_container .prototype_button {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  background-color: white;
+  letter-spacing: 2px;
+}
+
+/* line 26, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.prototype_selector_button_container .prototype_button:hover {
+  background-color: #c5c5c5;
+}
+
+/* line 37, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_title_description p {
+  display: none;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+/* line 42, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_title_description p:first-of-type {
+  display: inline-block;
+}
+
+/* line 47, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.subscription_video {
+  background-color: #144683;
+  padding: 20px 0 40px;
+  margin: 20px 0 0;
+}
+
+/* line 52, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.subscription_video h2, .subscription_video p {
+  color: white;
+}
+
+/* line 56, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.subscription_video hr {
+  color: white;
+  padding: 0;
+  margin: 10px 20px 0;
+}
+
+/* line 62, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.subscription_video h2 {
+  font-weight: 100;
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* line 69, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_video {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 74, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_video .text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 78, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_video .text_container .video_description {
+  padding: 0 10px;
+  margin: 0 20px;
+}
+
+/* line 84, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_video .video_template {
+  background-color: black;
+  width: 90%;
+  margin-left: 5%;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: solid 5px white;
+}
+
+/* line 94, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_video .video_template .text_alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 99, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_video .video_template .text_alignment p {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+/* line 108, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.Offshore_Blue {
+  background-color: #144683;
+}
+
+/* line 112, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.Dashboard_Blue {
+  background-color: #2198F3;
+}
+
+/* line 116, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.Enquiry_Blue {
+  background-color: #86C7F8;
+}
+
+/* line 120, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.blend {
+  height: 100px;
+  position: relative;
+  z-index: 0;
+}
+
+/* line 128, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.blend div {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+/* line 135, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.blend .left {
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+/* line 138, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.blend .right {
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  left: 50%;
+}
+
+/* line 144, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.subscription_screenshots {
+  background-color: #2198F3;
+  min-height: 300px;
+  position: relative;
+}
+
+/* line 152, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_screenshots {
+  z-index: 100;
+  min-height: 300px;
+  left: 20px;
+  right: 20px;
+  margin-bottom: 20px;
+  margin-top: -100px;
+  position: absolute;
+}
+
+/* line 163, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_screenshots h3 {
+  font-size: 3rem;
+  color: white;
+  text-decoration: underline;
+  font-weight: 100;
+}
+
+/* line 169, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_screenshots .slideshow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 173, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_screenshots .slideshow .image_container {
+  position: relative;
+  height: 300px !important;
+  width: 100%;
+  margin: 0 20px;
+}
+
+/* line 180, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_screenshots .slideshow .image_container:hover .text_overlay {
+  display: block;
+}
+
+/* line 185, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_screenshots .slideshow .image_container img {
+  height: 300px !important;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* line 192, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_screenshots .slideshow .image_container .text_overlay {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(1, 1, 1, 0.3);
+  margin: 0 10px;
+}
+
+/* line 199, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_screenshots .slideshow .image_container .text_overlay .align_height {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+}
+
+/* line 209, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.page_screenshots .slideshow .image_container .text_overlay .align_height p {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+/* line 220, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form {
+  background-color: #86C7F8;
+  min-height: 500px;
+  margin-top: -50px;
+  position: relative;
+}
+
+/* line 227, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container {
+  z-index: 100;
+  margin: 0 20px 0;
+  padding: 0 20px 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+/* line 233, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container .form_description {
+  padding: 20px;
+  margin: 0 -20px 10px;
+  border-radius: 15px 15px 0 0;
+  background-color: #4caf50;
+}
+
+/* line 238, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container .form_description h4 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 243, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container .form_description p, .enquiry_form_container .form_description h4 {
+  color: white;
+}
+
+/* line 249, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container form .column_1, .enquiry_form_container form .column_2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 252, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container form .column_1 label, .enquiry_form_container form .column_1 input, .enquiry_form_container form .column_2 label, .enquiry_form_container form .column_2 input {
+  font-size: 1.6rem;
+}
+
+/* line 255, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container form .column_1 label, .enquiry_form_container form .column_1 input, .enquiry_form_container form .column_1 textarea, .enquiry_form_container form .column_2 label, .enquiry_form_container form .column_2 input, .enquiry_form_container form .column_2 textarea {
+  margin-bottom: 5px;
+}
+
+/* line 259, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container form .column_1 textarea, .enquiry_form_container form .column_2 textarea {
+  resize: vertical;
+  min-height: 24px;
+  max-height: 200px;
+}
+
+/* line 265, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container form .column_1 .checkbox_group, .enquiry_form_container form .column_2 .checkbox_group {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* line 268, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container form .column_1 .checkbox_group .checkbox_label, .enquiry_form_container form .column_2 .checkbox_group .checkbox_label {
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+/* line 272, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container form .column_1 .checkbox_group .checkbox, .enquiry_form_container form .column_2 .checkbox_group .checkbox {
+  width: 20px;
+  display: inline-block;
+}
+
+/* line 278, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container form .column_1 ul, .enquiry_form_container form .column_2 ul {
+  list-style-type: none;
+}
+
+/* line 285, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container .submit_button {
+  display: block;
+  background-color: #144683;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* line 294, ../GitHub/EnquiryPrototype/SCSS/index.scss */
+.enquiry_form_container .submit_button:hover {
+  background-color: #2198F3;
+}
+
+@media (min-width: 768px) {
+  /* line 4, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .prototype_selector_button_container {
+    width: 750px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  /* line 9, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .prototype_selector_button_container a {
+    margin-bottom: 0;
+    margin: 0 10px;
+  }
+  /* line 15, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_title_description {
+    margin: 0 auto;
+    width: 750px;
+  }
+  /* line 20, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video {
+    margin: 0 auto;
+    width: 750px;
+  }
+  /* line 24, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video .video_template {
+    width: 730px;
+    height: 410px;
+    margin: 0;
+  }
+  /* line 31, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form_container {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 993px) {
+  /* line 38, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .prototype_selector_button_container {
+    width: 975px;
+  }
+  /* line 42, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_title_description {
+    width: 975px;
+  }
+  /* line 45, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_title_description p {
+    display: inline-block;
+  }
+  /* line 50, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video {
+    margin: 0 auto;
+    width: 975px;
+    flex-direction: row;
+  }
+  /* line 55, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video .text_container {
+    width: 482.5px;
+  }
+  /* line 59, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video .video_template {
+    width: calc(955px * $scale);
+    height: calc(537px * $scale);
+  }
+  /* line 66, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form_container {
+    width: 975px;
+  }
+  /* line 71, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form form {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 74, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form form .column_1, .enquiry_form form .column_2 {
+    width: 50%;
+  }
+  /* line 77, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form form .column_1 {
+    margin-right: 10px;
+  }
+  /* line 80, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form form .column_2 {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1218px) {
+  /* line 88, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .prototype_selector_button_container {
+    width: 1200px;
+  }
+  /* line 92, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_title_description {
+    width: 1200px;
+  }
+  /* line 96, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video {
+    margin: 0 auto;
+    width: 1200px;
+  }
+  /* line 100, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .page_video .video_template {
+    width: calc(1180px * $scale);
+    height: calc(663px * $scale);
+  }
+  /* line 107, ../GitHub/EnquiryPrototype/SCSS/index_media.scss */
+  .enquiry_form_container {
+    width: 1200px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,110 @@
+@import "./_variables.scss";
+
+@media (min-width: $small-Media-Width) {
+    .prototype_selector_button_container {
+        width: $small-Width;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        a {
+            margin-bottom: 0;
+            margin: 0 10px;
+        }
+    }  
+
+    .page_title_description {
+        margin: 0 auto;
+        width: $small-Width;
+    }
+
+    .page_video {
+        margin: 0 auto;
+        width: $small-Width;
+
+        .video_template {
+            width: 730px;
+            height: 410px;
+            margin: 0;
+        }
+    }
+
+    .enquiry_form_container {
+        width: $small-Width;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: $medium-Media-Width) {
+    .prototype_selector_button_container {
+        width: $medium-Width;       
+    }
+
+    .page_title_description {
+        width: $medium-Width;
+
+        p {
+            display: inline-block;
+        }
+    }
+
+    .page_video {
+        margin: 0 auto;
+        width: $medium-Width;
+        flex-direction: row;
+
+        .text_container {
+            width: 482.5px;
+        }
+
+        .video_template {
+            $scale: 0.5;
+            width: calc(955px * $scale);
+            height: calc(537px * $scale);
+        }
+    }
+
+    .enquiry_form_container {
+        width: $medium-Width;
+    }
+
+    .enquiry_form {
+        form {
+            display: flex;
+            flex-direction: row;
+            .column_1, .column_2 {
+                width: 50%;
+            }
+            .column_1 {
+                margin-right: 10px;
+            }
+            .column_2 {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width: $large-Media-Width) {
+    .prototype_selector_button_container {
+        width: $large-Width;
+    }
+
+    .page_title_description {
+        width: $large-Width;
+    }
+
+    .page_video {
+        margin: 0 auto;
+        width: $large-Width;
+
+        .video_template {
+            $scale: 0.5;
+            width: calc(1180px * $scale);
+            height: calc(663px * $scale);
+        }
+    }
+
+    .enquiry_form_container {
+        width: $large-Width;
+    }
+}

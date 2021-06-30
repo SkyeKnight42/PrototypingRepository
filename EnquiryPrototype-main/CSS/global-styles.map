@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "global-styles.css",
+	"sources": [
+		"../SCSS/global-styles.scss"
+	],
+	"sourcesContent": [
+		"\r\n* {\r\n    font-size: 62.5%;\r\n    box-sizing: border-box;    \r\n    font-family: sans-serif;\r\n}\r\n\r\nbody {\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\n\r\na, p {\r\n    font-size: 1.6rem;\r\n}\r\n\r\nh1 {\r\n    font-size: 3.2rem;\r\n}\r\nh2 {\r\n    font-size: 2.4rem;\r\n}\r\nh3 {\r\n    font-size: 1.872rem;\r\n}\r\nh4 {\r\n    font-size: 1.6rem;\r\n}\r\nh5 {\r\n    font-size: 1.328rem;\r\n}\r\nh6 {\r\n    font-size: 1.072rem;\r\n}\r\n\r\nh1,h2,h3,h4,h5,h6 {\r\n    text-align: center;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,CAAC,CAAC;EACE,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,UAAU;CAC1B;;;AAED,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACZ;;;AAED,AAAA,CAAC,EAAE,CAAC,CAAC;EACD,SAAS,EAAE,MAAM;CACpB;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,MAAM;CACpB;;;AACD,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,MAAM;CACpB;;;AACD,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,QAAQ;CACtB;;;AACD,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,MAAM;CACpB;;;AACD,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,QAAQ;CACtB;;;AACD,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,QAAQ;CACtB;;;AAED,AAAA,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,CAAC;EACd,UAAU,EAAE,MAAM;CACrB"
+}

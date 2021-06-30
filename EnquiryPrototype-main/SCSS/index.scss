@@ -1,0 +1,303 @@
+@import "./_variables.scss";
+
+* {
+    // border: solid 1px lime;
+}
+
+.prototype_selector {
+    background-color: $FourC_Blue;
+}
+
+.prototype_selector_button_container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    flex-direction: column;
+
+    .prototype_button {
+        display: block;
+        text-align: center;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        font-size: 2rem;
+        background-color: white;
+        letter-spacing: 2px;
+
+        &:hover {
+            background-color: rgb(197, 197, 197);
+        }
+    }
+}
+
+.page_title_description {
+    h1 {
+        // border: solid 1px red;
+    }
+
+    p {
+        display: none;
+        padding: 10px;
+        margin: 0 20px;
+    }
+    p:first-of-type {
+        display: inline-block;
+    }
+}
+
+.subscription_video {
+    background-color: $FourC_Blue;
+    padding: 20px 0 40px;
+    margin: 20px 0 0;
+
+    h2, p {
+        color: white;
+    }
+
+    hr {
+        color: white;
+        padding: 0;
+        margin: 10px 20px 0;
+    }
+
+    h2 {
+        font-weight: 100;
+        font-size: 3rem;
+        margin: 0;
+    }
+}
+
+.page_video {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .text_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .video_description {
+            padding: 0 10px;
+            margin: 0 20px;
+        }
+    }
+
+    .video_template {
+        background-color: black;
+        width: 90%;
+        margin-left: 5%;
+        height: 50vw;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border: solid 5px white;
+
+        .text_alignment {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            p {
+                color: white;
+                text-align: center;
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
+.Offshore_Blue {
+    background-color: $FourC_Blue;
+}
+
+.Dashboard_Blue {
+    background-color: $Dashboard_Blue;
+}
+
+.Enquiry_Blue {
+    background-color: $Enquiry_Blue;
+}
+
+.blend {
+    height: 100px;
+    position: relative;
+    
+    // border-top: solid 1px $FourC_Blue;
+    z-index: 0;
+    // border-top: solid 1px white;
+    // border-bottom: solid 1px white;
+    div {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+       
+    }
+
+    .left {
+        clip-path: polygon(100% 0, 0 0, 100% 100%);
+    }
+    .right {
+        clip-path: polygon(0 0, 0% 100%, 100% 0);
+        left: 50%;
+    }
+}
+
+.subscription_screenshots {
+    background-color: $Dashboard_Blue;
+    min-height: 300px;
+    // margin: 0 0 20px;
+    // padding: 20px;
+    position: relative;
+}
+
+.page_screenshots {
+    z-index: 100;
+    min-height: 300px;
+    // width: 100%;
+    left: 20px;
+    right: 20px;
+    // border: solid 1px white;
+    margin-bottom: 20px;
+    margin-top: -100px;
+    position: absolute;
+    // background-color: white;
+    h3 {
+        font-size: 3rem;
+        color: white;
+        text-decoration: underline;
+        font-weight: 100;
+    }
+    .slideshow {
+        display: flex;
+        justify-content: space-evenly;
+
+        .image_container {
+            position: relative;
+            height: 300px !important;
+            width: 100%;
+            margin: 0 20px;
+
+            &:hover {
+                .text_overlay {
+                    display: block;
+                }
+            }
+
+            img {
+                // width: 30vw !important;
+                height: 300px !important;
+                width: 100%;
+                object-fit: contain;
+            }
+
+            .text_overlay {
+                display: none;
+                position: absolute;
+                width: 100%;
+                height: 300px;
+                background-color: rgba(1,1,1,0.3);
+                margin: 0 10px;
+                .align_height {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    padding: 30px;
+                    p {
+                        text-align: center;
+                        color: white;
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.enquiry_form {
+    background-color: $Enquiry_Blue;
+    min-height: 500px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.enquiry_form_container {
+    z-index: 100;
+    margin: 0 20px 0;
+    padding: 0 20px 20px;
+    background-color: white;
+    border-radius: 15px;
+    .form_description {
+        padding: 20px;
+        margin: 0 -20px 10px;
+        border-radius: 15px 15px 0 0;
+        background-color: #4caf50;;
+        h4 {
+            font-size: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+        p, h4 {
+            color: white;
+        }
+    }
+
+    form {
+        .column_1, .column_2 {
+            display: flex;
+            flex-direction: column;
+            label, input {
+                font-size: 1.6rem;
+            }
+            label, input, textarea {
+                margin-bottom: 5px;
+            }
+
+            textarea {
+                resize: vertical;
+                min-height: 24px;
+                max-height: 200px;
+            }
+
+            .checkbox_group {
+                list-style-type: none;
+                padding-left: 0;
+                .checkbox_label {
+                    display: inline-block;
+                    text-transform: capitalize;
+                }
+                .checkbox {
+                    width: 20px;
+                    display: inline-block;
+                }
+            }
+
+            ul {
+                list-style-type: none;
+            }
+
+        }
+    }
+
+    .submit_button {
+        display: block;
+        background-color: $FourC_Blue;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        &:hover {
+            background-color: $Dashboard_Blue;
+        }
+    }
+}
+
+
+
+
+@import "./index_media.scss";
